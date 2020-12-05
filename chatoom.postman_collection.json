@@ -1,0 +1,324 @@
+{
+	"id": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+	"name": "chatoom",
+	"description": "",
+	"order": [
+		"ab9a6d19-3875-a2bb-a9a0-d2a33cab4380",
+		"b64bc83a-ee10-8d39-ff45-eea1076ab6d0",
+		"d6a055cc-23c7-41a3-587b-53970d901374",
+		"1429aeda-fad4-78d8-4110-dce569f93a90",
+		"d7225c59-7b88-b471-ef4f-6d1bd9cbd517",
+		"4256b0de-f415-0c31-2cba-b11df3be387e",
+		"02dec808-d188-33cc-be01-9f2cc61bf3ee",
+		"a0a67ca6-679d-dddd-7bbc-9bcfb88a24eb",
+		"f0c18fbc-fa6d-51d3-085b-9793a626108f",
+		"311bf45a-4cf0-1579-1624-47d6c51970c1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1602411611862,
+	"owner": "5291900",
+	"public": false,
+	"requests": [
+		{
+			"id": "02dec808-d188-33cc-be01-9f2cc61bf3ee",
+			"headers": "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNjEwOX0.K2cK3znc_w9xNHsLNEYB6CzPHgSlEju-H0RbBAgOzsc\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNjEwOX0.K2cK3znc_w9xNHsLNEYB6CzPHgSlEju-H0RbBAgOzsc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/room/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602427343397,
+			"name": "get recent conversation",
+			"description": "",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": []
+		},
+		{
+			"id": "1429aeda-fad4-78d8-4110-dce569f93a90",
+			"headers": "Content-Type: application/json\nauthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxM2UyMjAxMzAzMzU0OGM3ODZhY2ZjNjhiYTUyN2M1MiIsInVzZXJUeXBlIjoiY29uc3VtZXIiLCJpYXQiOjE2MDI0MjkwMTZ9.RfzEpeKDFjdblY61peWH_XY1G3q-IAs7KN-72yjyTf0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxM2UyMjAxMzAzMzU0OGM3ODZhY2ZjNjhiYTUyN2M1MiIsInVzZXJUeXBlIjoiY29uc3VtZXIiLCJpYXQiOjE2MDI0MjkwMTZ9.RfzEpeKDFjdblY61peWH_XY1G3q-IAs7KN-72yjyTf0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/room/initiate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602429156026,
+			"name": "initiate chat in room",
+			"description": "initiate chatroom",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": [],
+			"rawModeData": "{\n\t\"userIds\": [\n\t\t\t\"a3f57644967c4d808f3618f5ea167f16\",\n\t\t\t\"9cea6585afdf44f8a2898ed561176181\",\n\t\t\t\"7b2f7c70556043db8ccbb490150263e5\",\n\t\t\t\"772ce4e767fd42daa27eab873d3d542e\"\n\t\t],\n\t\"type\": \"consumer-to-support\"\n}"
+		},
+		{
+			"id": "311bf45a-4cf0-1579-1624-47d6c51970c1",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/delete/room/caaac5c10fe34c909d370042dc5e68e9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602428307623,
+			"name": "Delete Romm by chatroom Id",
+			"description": "",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": []
+		},
+		{
+			"id": "4256b0de-f415-0c31-2cba-b11df3be387e",
+			"headers": "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNjEwOX0.K2cK3znc_w9xNHsLNEYB6CzPHgSlEju-H0RbBAgOzsc\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNjEwOX0.K2cK3znc_w9xNHsLNEYB6CzPHgSlEju-H0RbBAgOzsc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/room/5468f891c93e48deaca76cf5a93bfd85?limit=200&page=0",
+			"queryParams": [
+				{
+					"key": "limit",
+					"value": "200",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602429376896,
+			"name": "See full conversation of Room",
+			"description": "See full conversation",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": []
+		},
+		{
+			"id": "a0a67ca6-679d-dddd-7bbc-9bcfb88a24eb",
+			"headers": "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/room/cfc3b49da0814aa49ecf45ab160d07e8/mark-read",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602427954776,
+			"name": "Mark conversation as read by room ID",
+			"description": "",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": []
+		},
+		{
+			"id": "ab9a6d19-3875-a2bb-a9a0-d2a33cab4380",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602428722483,
+			"name": "register user",
+			"description": "register user",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\": \"ConsumerAdmin\",\n\t\"lastName\": \"Admin\",\n\t\"type\": \"consumer\"\n}"
+		},
+		{
+			"id": "b64bc83a-ee10-8d39-ff45-eea1076ab6d0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/users/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "see all user",
+			"description": "get all user list",
+			"descriptionFormat": "html",
+			"time": 1602421165347,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d6a055cc-23c7-41a3-587b-53970d901374",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/login/7b2f7c70556043db8ccbb490150263e5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602429527935,
+			"name": "login user",
+			"description": "login post",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": []
+		},
+		{
+			"id": "d7225c59-7b88-b471-ef4f-6d1bd9cbd517",
+			"headers": "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxM2UyMjAxMzAzMzU0OGM3ODZhY2ZjNjhiYTUyN2M1MiIsInVzZXJUeXBlIjoiY29uc3VtZXIiLCJpYXQiOjE2MDI0MjkwMTZ9.RfzEpeKDFjdblY61peWH_XY1G3q-IAs7KN-72yjyTf0\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxM2UyMjAxMzAzMzU0OGM3ODZhY2ZjNjhiYTUyN2M1MiIsInVzZXJUeXBlIjoiY29uc3VtZXIiLCJpYXQiOjE2MDI0MjkwMTZ9.RfzEpeKDFjdblY61peWH_XY1G3q-IAs7KN-72yjyTf0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/room/5468f891c93e48deaca76cf5a93bfd85/message",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602429405477,
+			"name": "Message in room using chat room id",
+			"description": "Send message uding chatroom ID",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"responses": [],
+			"rawModeData": "{\n\t\"messageText\": \"Message from Consumer\"\n}"
+		},
+		{
+			"id": "f0c18fbc-fa6d-51d3-085b-9793a626108f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5Y2VhNjU4NWFmZGY0NGY4YTI4OThlZDU2MTE3NjE4MSIsInVzZXJUeXBlIjoic3VwcG9ydCIsImlhdCI6MTYwMjQyNzYwMn0.bSowEbQfjNtWdD8GjobLi7ZCGTG1ARo_exUnLEAcbNs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/delete/message/f79be0e65bec4806bc1a8a7e9c3c3ad3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "8cd98eed-fbcd-ba78-6b28-158b8c3826ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete message using message ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602428149790,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

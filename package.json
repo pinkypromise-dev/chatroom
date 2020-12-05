@@ -1,0 +1,27 @@
+{
+  "name": "chatroom-pp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js",
+    "start:server": "node server/index.js"
+  },
+  "dependencies": {
+    "@withvoid/make-validation": "1.0.5",
+    "cors": "2.8.5",
+    "express": "4.16.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.9.18",
+    "morgan": "1.9.1",
+    "socket.io": "2.3.0",
+    "uuid": "8.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
